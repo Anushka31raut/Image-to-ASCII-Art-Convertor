@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to ASCII Art Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🖼️ Image to ASCII Art Converter</h1>
+        
+        <label for="imageInput" class="file-input-label">
+            Upload Image
+        </label>
+        <input type="file" id="imageInput" accept="image/*">
+
+        <canvas id="canvas"></canvas>
+
+        <pre id="ascii-art">Your ASCII art will appear here...</pre>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
